@@ -134,7 +134,7 @@ const Home: NextPage = () => {
   }
 
   return (
-    <WalletLoader loading={loading} children={undefined}>
+    <WalletLoader loading={loading}>
       {balance && (
         <p className="text-primary">
           <span>{`Your wallet has ${balance} `}</span>

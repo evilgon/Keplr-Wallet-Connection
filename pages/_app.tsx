@@ -9,7 +9,7 @@ const options = {
   position: positions.BOTTOM_CENTER,
   timeout: 5000,
   transition: transitions.SCALE,
-  containerStyle: { zIndex: 1040 }
+  containerStyle: { zIndex: 1040 },
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
